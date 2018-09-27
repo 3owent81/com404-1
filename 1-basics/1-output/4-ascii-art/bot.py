@@ -7,3 +7,15 @@ print("\t ##############")
 print("\t |            |")
 print("\t |  #        #|")
 print("\t |   #        |")
+
+# Display ascii art using long string
+print("""
+ ##############
+(#  x     x   #)
+ #            #
+ #     w      #
+ ##############
+ |            |
+ |  #        #|
+ |   #        |
+""")
