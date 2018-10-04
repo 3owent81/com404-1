@@ -1,0 +1,16 @@
+import math
+
+# Read radius from user
+print("Please enter radius")
+radius = int(input())
+
+area = math.pi * (radius * radius)
+# alternatively:
+# area = math.pi * (radius ** 2)
+# area = math.pi * pow(radius, 2)
+
+circumference = 2 * math.pi * radius
+
+# Display result
+print("Area is," area)
+print("Circumference is" circumference)
