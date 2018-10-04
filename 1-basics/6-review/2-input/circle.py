@@ -5,7 +5,7 @@ print("Please enter radius")
 radius = int(input())
 
 area = math.pi * (radius * radius)
-# alternatively:
+# Alternatively:
 # area = math.pi * (radius ** 2)
 # area = math.pi * pow(radius, 2)
 
