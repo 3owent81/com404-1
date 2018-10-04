@@ -7,7 +7,6 @@ print("...d to move right")
 
 direction = input()
 
-
 if (direction == "w"):
   print("I am moving up!")
 else:
