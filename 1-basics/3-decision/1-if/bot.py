@@ -9,3 +9,12 @@ direction = input()
 
 if (direction == "w"):
   print("I am moving up!")
+
+if (direction == "a"):
+  print("I am moving left!")
+
+if (direction == "s"):
+  print("I am moving back!")
+
+if (direction == "d"):
+  print("I am moving right!")
